@@ -27,8 +27,10 @@
   }
   @include media-mobile {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 25px;
+    align-items: flex-start;
   }
 }
 
@@ -56,13 +58,7 @@
 .hero__buttons-wrapper {
   display: flex;
   gap: 30px;
-  @include media-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
-
 .hero {
   background-image: url("../../src/img/designer_1.png");
   background-repeat: no-repeat;
