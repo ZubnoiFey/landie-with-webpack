@@ -4,8 +4,8 @@
   background-color: rgba(231, 236, 255, 0.5);
 
   @include media-tablet {
-    padding-top: 100px;
-    padding-bottom: 90px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -27,7 +27,6 @@
   margin-bottom: 55px;
   @include media-tablet {
     margin-bottom: 20px;
-    text-align: justify;
   }
 }
 

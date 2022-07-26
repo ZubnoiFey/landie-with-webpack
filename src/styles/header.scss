@@ -24,3 +24,10 @@
   display: flex;
   gap: 35px;
 }
+
+.header__link {
+  @media (max-width: 1200px) {
+    font-weight: 500;
+  }
+
+}

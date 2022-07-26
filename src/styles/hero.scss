@@ -11,6 +11,9 @@
 .hero__text {
   width: 600px;
   text-align: justify;
+  @include media-tablet {
+    width: 100%;
+  }
 }
 
 .hero__main-text {
