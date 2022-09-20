@@ -3,6 +3,9 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #E7ECFF;
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 .footer__text-wrap {
